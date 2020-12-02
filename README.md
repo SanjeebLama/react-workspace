@@ -14,10 +14,9 @@ You will find many react projects here.
 2. Component:
 
 - Component describe a part of userinterface.
-- Types:
-  There are two React component:
-  i. Stateless Functional Component and
-  ii. Stateful Class Component
+- Two types of Component:
+  Stateless Functional Component and
+  Stateful Class Component
 
   Functional Component is simple function.
   Use this component as much as possible.
