@@ -1,0 +1,32 @@
+.TopBar {
+  width: 100%;
+  background-color: hsl(220, 13%, 18%);
+  text-align: center;
+  padding: 24px 48px 12px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.TopBar > img {
+  width: 100px;
+}
+
+.App_logo {
+  /* height: 20vmin; */
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App_logo {
+    animation: App_logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App_logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
