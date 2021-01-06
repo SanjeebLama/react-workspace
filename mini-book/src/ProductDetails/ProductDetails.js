@@ -21,15 +21,16 @@ function ProductDetails(props) {
   });
 
   const featureList = props.data.featureList.map((item, pos) => {
-    const classArr = [classes.FeatureItem];
-    if (pos === 0) {
-      classArr.push(classes.SelectedFeatureItem);
+    // return console.log(item);
+    const buttonArr = [classes.FeatureItem];
+    if (pos === 1) {
+      buttonArr.push(classes.SelectedFeatureItem);
     }
     return (
       <button
-        onClick={() => console.log(props.onFeatureItemClick(pos))}
+        onClick={pos.onButtonClicked}
         key={pos}
-        className={classArr.join(" ")}
+        className={buttonArr.join(" ")}
       >
         {item}
       </button>
